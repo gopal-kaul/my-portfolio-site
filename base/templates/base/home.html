@@ -1,0 +1,95 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">  
+<link href="{% static '/css/main.css' %}" rel='stylesheet' >
+
+<title>
+Gopal Kaul
+</title>
+</head>
+<body>
+<div class='container'>
+<br>
+    <div class='row'>
+        <div class='col-md-3'> 
+            <div id='profile-wrapper' class='card card-body h-100'>
+            <img id='profile-pic' src='{% static "/images/me.jpg" %}' >
+            <hr>
+            <h3>
+                Hi, Gopal here!
+            </h3>
+            <p>I love programming, volleyball and biking!</p>
+            </div>
+        </div>
+        <div class='col-md-9'> 
+            <div class='card card-body h-100'>
+                <h4>I'm a student pursuing BE in Computer Science Engineering</h4>
+                <hr>
+                <p>
+                I love technology and sports! You will either find me programming or playing volleyball. I also love to travel and explore new places!
+                <br>
+                I keep updated with the latest technological developments throughout the world!
+                </p>
+                <h5>
+                Social links:
+                </h5>
+                <ul>
+                    <li><a target='_blank' href='https://www.facebook.com/profile.php?id=100042402603530'><img class="social" src="{% static 'images/facebook.png' %}" /></a></li>
+                    <li><a target='_blank' href='https://www.linkedin.com/in/gopal-kaul-962ba6153/'><img class="social" src="{% static 'images/linkedin.png' %}" /></a></li>
+                    <li><a target='_blank' href='https://www.twitter.com/kaulmegops'><img class="social" src="{% static 'images/twitter.png' %}" /></a></li>
+                    <li><a href='https://www.instagram.com/kaulmegops' target="_blank"><img class="social" src="{% static 'images/instagram.png' %}" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class='row'>
+        <div class='col-md-6'> 
+            <div class='card card-body h-100' >
+            <h4>
+            My Education
+            </h4>
+            <hr>
+            <p>
+            I passed my 10th from St. Peter's Model School in Nacharam with a 10 CGPA from CBSE Board.<br>I passed my 12th from Kendriya Vidyalaya No 2 Uppal Hyderabad with 95% from CBSE Board.
+            </p>
+            </div>
+        </div>
+        <div class='col-md-6'> 
+            <div class='card card-body h-100'>
+            <h4>
+            My skills
+            </h5>
+            <hr>
+            <p>
+            I am very good with Python, C/C++ and SQL. I can also build sites using Django with REST and React or Bootstrap. I use Linux as my main OS. <br>
+            I am proficient in Flutter too.
+            </p></div>
+        </div>
+    </div>
+    <br>
+    <div class='row'>
+        <div class='col-md-6'> 
+            <div class='card card-body h-100'>
+            <h4>
+            How I Learn
+            </h4>
+            <hr>
+            <p>
+            I just read the documentation,check out some sample apps or watch some tutorials on YouTube. I try to build something using that which makes my skill stronger.
+            </p></div>
+        </div>
+        <div class='col-md-6 '> 
+            <div class='card card-body h-100'>
+            <h4>
+            My Goals
+            </h5>
+            <hr>
+            <p>
+            I want to build applications useful to the society. I also wish to contribute to building FOSS applications.
+            </p></div>
+        </div>
+    </div>
+    </div>
+</body>
